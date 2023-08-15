@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
- int count = 0;
+ 
  for(int i = 0; i < 50; i ++)
  {
     string name;
@@ -20,7 +20,7 @@ int main()
     cout << name << endl;
  }
 
-
+ int goga = 25;
     return 0;  
  
    
