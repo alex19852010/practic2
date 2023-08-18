@@ -24,7 +24,7 @@ int main()
       cout << a << endl;
    }
  }
- cout << "Hello Alex";
+ cout << "Hello Vika";
 
 
     return 0;  
