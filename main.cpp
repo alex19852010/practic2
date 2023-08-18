@@ -26,7 +26,6 @@ int main()
  }
  cout << "Hello Alex";
 
- cout << "hello world";
 
     return 0;  
  
