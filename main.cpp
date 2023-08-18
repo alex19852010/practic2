@@ -24,7 +24,10 @@ int main()
       cout << a << endl;
    }
  }
- cout << "Hello Fedor";
+
+ cout << "Hello Alex";
+
+
 
 
     return 0;  
