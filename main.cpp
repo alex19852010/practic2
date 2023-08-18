@@ -25,10 +25,9 @@ int main()
    }
  }
  cout << "Hello Alex";
-<<<<<<< HEAD
-=======
+
  cout << "hello world";
->>>>>>> 6c8d2336aac718be92bd89b2446aaf2e1929e8ec
+
     return 0;  
  
    
