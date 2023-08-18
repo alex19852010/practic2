@@ -10,17 +10,20 @@ using namespace std;
 
 
 
+
 int main()
 {
  
- for(int i = 0; i < 50; i ++)
- {
-    string name;
-    name = rand() % 5 ? "elf" + to_string(i) : ("none");
-    cout << name << endl;
- }
+ string str = "hello";
 
- int goga = 25;
+ for(int i = 0; i < str.length(); i ++)
+ {
+   while(str[i] != 0)
+   {
+      char a = str[i];
+      cout << a << endl;
+   }
+ }
  
     return 0;  
  
