@@ -7,25 +7,30 @@
 
 using namespace std;
 
+class People
 
+{  
+    public:
+    int age;
+    int weight;
+    int height;
+
+     People(int age, int weight, int height)
+    {
+       this->age = age;
+       this->weight = weight;
+       this->height = height;
+    }
+
+};
 
 
 
 int main()
 {
+ People* people = new People(30, 75, 175);
+ cout << people->height;
  
- string str = "hello";
-
- for(int i = 0; i < str.length(); i ++)
- {
-   while(str[i] != 0)
-   {
-      char a = str[i];
-      cout << a << endl;
-   }
- }
-
- cout << "Hello Alex";
 
     return 0;  
  
