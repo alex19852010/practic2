@@ -30,7 +30,7 @@ int main()
 {
  People* people = new People(30, 75, 175);
  cout << people->height;
- cout << "hello Alex";
+ cout << "Ukranian forever";
 
     return 0;  
  
